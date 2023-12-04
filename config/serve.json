@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://bullmetalproducts.sharepoint.com/Policies/Forms/AllItems.aspx",
+      "customActions": {
+        "afb7d9ac-5314-46d2-bd6b-c393f43675cb": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "dialogDemo": {
+      "pageUrl": "https://bullmetalproducts.sharepoint.com/Policies/Forms/AllItems.aspx",
+      "customActions": {
+        "afb7d9ac-5314-46d2-bd6b-c393f43675cb": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
